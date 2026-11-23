@@ -1,0 +1,98 @@
+/* تنظیمات کلی */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* صفحه اول */
+
+.first-page {
+    background-color: #242424;
+    color: white;
+}
+
+.main h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.main p {
+    color: #bbbbbb;
+    font-size: 15px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #d83232;
+    color: white;
+    text-decoration: none;
+    padding: 13px 45px;
+    border-radius: 6px;
+    font-size: 19px;
+}
+
+.button:hover {
+    background-color: #a91f1f;
+}
+
+.small {
+    margin-top: 25px;
+    font-size: 12px !important;
+}
+
+/* صفحه دوم */
+
+.second-page {
+    background-color: #f6e9e9;
+    color: #382b2b;
+}
+
+.letter {
+    background-color: white;
+    padding: 40px 25px;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000010;
+}
+
+.heart {
+    color: #e45b75;
+    font-size: 35px;
+    margin: 0 0 15px;
+}
+
+.letter h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 2.4;
+    color: #514343;
+}
+
+.letter h2 {
+    color: #d64c69;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.end {
+    color: #999;
+    font-size: 13px;
+    margin-top: 35px;
+}
